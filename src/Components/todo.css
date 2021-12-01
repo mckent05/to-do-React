@@ -1,0 +1,120 @@
+.d-flex {
+    display: flex;
+  }
+  
+  .a-center {
+    align-items: center;
+  }
+  
+  .j-center {
+    justify-content: center;
+  }
+  
+  .f-col {
+    flex-direction: column;
+  }
+
+.form  {
+    column-gap: 40px;
+    width: 50%;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form button {
+    color: black;
+    outline: none;
+    border: none;
+    padding: 8px;
+    width: 15%;
+    background-color: transparent;
+    position: absolute;
+    right: 2%;
+    font-weight: bold;
+    top: 0;
+}
+
+.form input {
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 6px grey;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.todo-container {
+    width: 60%;
+}
+
+.list-container {
+    width: 100%;
+}
+
+.task {
+    column-gap: 50px;
+    padding: 8px;
+}
+
+
+.checkbox {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.task button {
+    width: 20%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: red;
+    box-shadow: 0 4px 6px black;
+}
+
+.task div {
+    width: 50%
+}
+
+.task div p {
+    width: 30vw;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.edit-text {
+    width: 100%;
+    padding: 10px;
+    display: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0 4px 6px grey;
+    border-radius: 5px;
+}
+
+.completed p {
+    color: grey;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.completed button {
+    display: none;
+}
+
+.edit p {
+    display: none;
+}
+
+.edit .edit-text {
+    display: flex;
+}
+
