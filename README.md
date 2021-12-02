@@ -1,65 +1,75 @@
-# React and Redux
+# To-do list Project using ReactJS
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+> This is ToDo list project.
+> I created this project using React.
 
-## Set-up GitHub Actions
+# About Project.
+> This is a to-Do List.
+> This project displays a set of task already inputed in an array containing objects.
+> The tasks are displayed dynamically according to the index values in each of the objects.
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+# Live View
+> Not Live yet
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+# Getting Started
 
-Please do the following **steps in this order**:
+> [Clone this repo](https://github.com/mckent05/to-do-React)
+ `git clone https://github.com/mckent05/to-do-React.git`
+> Navigate to Awesome_books folder/directory
+  `cd to-do-React` the comandline, at the project's root, run `npm install` to install app dependencies
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+> Next, run `npm start` which will run the app in the development mode.
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+> Open http://localhost:3000 to view it in the browser.
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+ALTERNATIVELY
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+> Just run `npm run build` which will build the project and generate output files into the build directory.
 
-## Set-up linters in your local env
+> Go to build directory and manually open books.html to interact with the app
 
-### ESLint
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint .` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+Additional description about the project and its features.
 
-### Stylelint
+## Testing the Project
+> To test this project by using jest, if you dont have jest installed run ```npm install --save-dev jest``` in your terminal. After this, run ```npm run test``` to run the test and wait for the results.
 
-1. Run
+## Built With
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+- HTML- Hypertext Markup Language
+- CSS - Cascading Style Sheets
+- JS - Javascript
+- ReactJS
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+## Authors
+Akinlade Temitope
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+- GitHub: [@githubhandle](https://github.com/mckent05)
+- Twitter: [@twitterhandle](https://twitter.com/mckent05)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/AkinladeTemitope)
 
-## Test/Deployment Actions
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+## 🤝 Contribution
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/newFeature)
+3. Commit your Changes (git commit -m 'Add some newFeature')
+4. Push to the Branch (git push -u origin feature/newFeature)
+5. Open a Pull Request
+
+## Acknowledgements
+
+> i want to acknowledge my partner @ntazelo for his immense contribution to this project.
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+# License
+This project is [MIT](./MIT.md) licensed.
