@@ -4,20 +4,20 @@
 }
 
 .app {
-  margin-top: 10%;
+  margin-top: 60px;
   width: 100vw;
   row-gap: 20px;
 }
 
 .clr-btn {
-  width: 30%;
+  width: 25%;
   padding: 12px;
   font-size: 20px;
   text-transform: capitalize;
   background-color: darkgreen;
   border: none;
   outline: none;
-  box-shadow: 0 4px 6px black;
+  border-radius: 20px;
 }
 
 .hide-btn {

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import './todo.css';
 import React, { Component } from 'react';
+import { FaTrash } from 'react-icons/fa';
 
 class TodoItem extends Component {
   constructor() {
@@ -39,7 +40,7 @@ class TodoItem extends Component {
                 <p>{title}</p>
               </div>
               {' '}
-              <button type="button" onClick={() => deleteToDo(id)}>Delete</button>
+              <button type="button" aria-label="trash" onClick={() => deleteToDo(id)}><FaTrash /></button>
             </li>
           </div>
         );

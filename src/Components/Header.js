@@ -3,7 +3,7 @@ import './todo.css';
 
 const Header = () => (
   <div>
-    <h1>todos</h1>
+    <h1 className="header">todos</h1>
   </div>
 );
 
