@@ -11,7 +11,7 @@
 
 
 # Live View
-> Not Live yet
+> Here is the [link](https://mckent05.github.io/to-do-React/) to view this page live
 
 # Getting Started
 
