@@ -85,7 +85,6 @@ class App extends Component {
       }
     });
     this.setState(() => ({ newTask: { title: '' } }));
-    console.log(e.target.parentElement.parentElement.className);
     document.querySelector('#enter-task').value = '';
   }
 
