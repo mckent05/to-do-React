@@ -23,3 +23,9 @@
 .hide-btn {
   display: none;
 }
+
+@media screen and (max-width: 776px) {
+  .clr-btn {
+    width: 70%;
+  }
+}

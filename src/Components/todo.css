@@ -207,3 +207,25 @@ ul {
   margin-top: 180px;
   row-gap: 10px;
 }
+
+@media screen and (max-width: 776px) {
+  .form {
+    width: 80%;
+  }
+
+  .form input {
+    width: 100%;
+  }
+  
+  .todo-container {
+    width: 90%;
+  }
+
+  .task div p {
+    width: 40vw;
+  }
+
+  .Navbar{
+    width: 50vw;
+  }
+}
